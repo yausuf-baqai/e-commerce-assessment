@@ -1,0 +1,31 @@
+READ ME 
+
+# Ecommerce API
+
+This is an eCommerce API built using **Node.js** and **MySQL** with **Sequelize** ORM. It allows users to manage products, users, and orders for an eCommerce platform.
+
+## Prerequisites
+
+Before you start, you need to have the following installed:
+
+- **XAMPP** (to run MySQL database locally)
+- **Node.js** (to run the API server)
+- **npm** (Node package manager)
+
+
+### 1. Set Up MySQL Database
+
+1. Open **phpMyAdmin** by navigating to [http://localhost/phpmyadmin](http://localhost/phpmyadmin) in your browser.
+2. Create a new database named **ecommerce_db**.
+3. Import the **SQL file**
+
+   - To import the SQL file:
+     - Go to **phpMyAdmin** > Select **ecommerce_db** > Click on the **Import** tab.
+     - Choose the SQL file and click **Go** to import the database schema.
+
+
+### 2. Run The Project 
+
+1. In your Terminal run the command npm instal
+2. The node_modules and package-lock file occurs 
+3. Once this done run the command npm run dev
